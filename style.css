@@ -1,0 +1,29 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: white;
+	font-family: iosevka;
+	font-size: 14px;
+}
+
+#logo {
+	padding: 0px 0px 20px 565px;
+
+}
+
+#title {
+	padding: 0px 0px 20px 560px;
+}
+
+#title h3 {
+	padding: 0px 0px 0px 15px;
+}
+
+.box {
+	padding: 0px 30px 20px 30px;
+}
+
+#news {
+	float: right;
+	width: 860px;
+}
