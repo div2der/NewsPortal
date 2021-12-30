@@ -11,6 +11,15 @@ body {
 
 }
 
+#categories h3 {
+	margin-left: 20px;
+}
+
+#categories h3 a{
+	margin-left: 95px;
+	text-decoration: none;
+}
+
 #title {
 	padding: 0px 0px 20px 560px;
 }
