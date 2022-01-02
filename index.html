@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>News Portal</title>
 		<link href = "style.css" rel = "stylesheet" type = "text/css" />
+		<link rel="icon" type="image/png" href="images/favicon.png">
 	</head>
 	<body>
 	<div>
@@ -17,15 +18,26 @@
 				<h3>The latest news</h3>
 			</div>
 			<hr>
-			<div id = "categories">
-				<h3 style = "display: inline;">Categories: </h3>
-				<!-- Politics, Sport, Technologies, Science, Health, Travel -->
-				<h3 style = "display: inline;"><a href = "#">Politics</a></h3>
-				<h3 style = "display: inline;"><a href = "#">Sport</a></h3>
-				<h3 style = "display: inline;"><a href = "#">Technologies</a></h3>
-				<h3 style = "display: inline;"><a href = "#">Science</a></h3>
-				<h3 style = "display: inline;"><a href = "#">Health</a></h3>
-				<h3 style = "display: inline;"><a href = "#">Travel</a></h3>
+			<div id = "categories" style = "display: inline-block;">
+				<h3>Categories:</h3>
+				<ul>
+					<li><a href = "#">Politics</a></li>
+					<li><a href = "#">Sport</a></li>
+					<li><a href = "#">Technologies</a></li>
+					<li><a href = "#">Science</a></li>
+					<li><a href = "#">Health</a></li>
+					<li><a href = "#">Travel</a></li>
+				</ul>
+			</div>
+			<div id = "login" style = "display: inline-block;">
+				<h3>Log in</h3>
+				<form>
+					<label>Login</label><br>
+					<input type = "text"><br>
+					<label>Password</label><br>
+					<input type = "password"><br><br>
+					<input type = "submit" value = "Login">
+				</form>
 			</div>
 			<hr>
 		</div>
@@ -34,13 +46,13 @@
 		<div id = "news1">
 			<h1>Trump meets Kim Jong Un, becomes first sitting U.S. president to step into North Korea</h1>
 			<h2>
-				"Stepping across that line was a great honor," Trump said, later adding that it was "something incredible."	
+				<em>"Stepping across that line was a great honor," Trump said, later adding that it was "something incredible."</em>
 			</h2>
 			<video width = "600" height = "300" controls>
 				<source src = "videos/trump.mp4" type = "video/mp4">
 			</video>
-			<p>
-				On Sunday, President Donald Trump stated that the US and North Korea will resume delayed nuclear talks, a historic step onto North Korean land. North Korean leader Kim Jong Un made the declaration during a special last-minute gathering.
+			<p id = "text">
+				On Sunday, <strong>President Donald Trump</strong> stated that the <strong>US</strong> and <strong>North Korea</strong> will resume delayed nuclear talks, a historic step onto North Korean land. North Korean leader <strong>Kim Jong Un</strong> made the declaration during a special last-minute gathering.
 
 				Trump made history when he became the first sitting US president to cross the 1953 armistice line between North and South Korea, standing side by side with Kim in the heavily fortified demilitarized zone before sitting down with him for a 50-minute conversation.
 
@@ -48,6 +60,9 @@
 
 				The summit was hailed as a success by Trump, who stated that nuclear talks would begin "within weeks" and that the two countries would choose teams of officials to lead them.
 			</p>
+			<hr>
+			<br>
+			Copyright &#169; Dana and Azamat. All right reserved.
 		</div>
 	</div>
 	</body>

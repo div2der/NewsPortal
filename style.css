@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 body {
-	padding: 0;
-	margin: 0;
-	background: white;
+	background: #FFFFDF;
 	font-family: "Roboto Condensed";
 	font-size: 14px;
 }
 
 #logo {
-	padding: 0px 0px 20px 565px;
+	padding: 0px 0px 0px 574px;
+}
 
+#categories {
+	font-size: 110%;
 }
 
 #categories h3 {
 	margin-left: 20px;
 }
 
-#categories h3 a{
-	margin-left: 95px;
-	text-decoration: none;
+#login {
+	float: right;
 }
 
 #title {
-	padding: 0px 0px 20px 550px;
+	padding: 0px 0px 0px 550px;
 }
 
 #title h1 {
@@ -55,4 +55,11 @@ body {
 
 #news1 h1 {
 	font-size: 300%;
+}
+
+#text {
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 130%;
 }
